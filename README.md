@@ -1,7 +1,14 @@
 
 # long-range and local signaling
 CI repression:
-$\frac{\partial CdiA}{\partial t} = \frac{\beta_CdiA}{ 1 + (\frac{CI}{K_CdiA})^{2} } - decay \cdot CdiA $
+$\frac{\partial cdiA}{\partial t} = \frac{\beta cdiA}{ 1 + (\frac{cI}{K cdiA})^{2} } - decay \cdot cdiA $
+
+$\frac{\partial gfp}{\partial t} = \frac{\beta gfp}{ 1 + (\frac{cI}{K gfp})^{2} } - decay \cdot gfp $
+
+LuxR and AHL activation:
+$\frac {luxR \cdot AHL} {luxR + AHL}$
+
+$\frac{\partial cI}{\partial t} = \frac{\beta cI \cdot (\frac {luxR \cdot AHL} {luxR + AHL})^{2}}{ (K cI)^{2} + (\frac {luxR \cdot AHL} {luxR + AHL})^{2} } - decay \cdot cI $
 
 
 

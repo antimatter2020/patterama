@@ -10,9 +10,9 @@ LuxR and AHL activation:
 
 $\frac {luxR \cdot AHL} {luxR + AHL}$
 
-$\frac{\partial cI}{\partial t} = \frac{\beta cI \cdot (\frac {luxR \cdot AHL} {luxR + AHL})^{2}}{ (K cI)^{2} + (\frac {luxR \cdot AHL} {luxR + AHL})^{2} } - decay \cdot cI $
+$\frac{\partial cI}{\partial t} = \frac{\beta cI \cdot (\frac {luxR \cdot AHL} {luxR + AHL})^{2}}{ K cI^{2} + (\frac {luxR \cdot AHL} {luxR + AHL})^{2} } - decay \cdot cI $
 
-$\frac{\partial AHL}{\partial t} = \frac{\beta AHL \cdot (\frac {luxR \cdot AHL} {luxR + AHL})^{2}}{ (K AHL)^{2} + (\frac {luxR \cdot AHL} {luxR + AHL})^{2} } - decay \cdot AHL $
+$\frac{\partial AHL}{\partial t} = \frac{\beta AHL \cdot (\frac {luxR \cdot AHL} {luxR + AHL})^{2}}{ K AHL^{2} + (\frac {luxR \cdot AHL} {luxR + AHL})^{2} } - decay \cdot AHL $
 
 
 

@@ -1,3 +1,10 @@
+
+# long-range and local signaling
+CI repression:
+$\frac{\partial CdiA}{\partial t} = \frac{\beta_CdiA}{ 1 + (\frac{CI}{K_CdiA})^{2} } - decay \cdot CdiA $
+
+
+
 # AHL→cell death model
 
     du/dt= D * laplacian(u,h) - decay * u + k * v
@@ -11,3 +18,4 @@ $\frac{\partial u}{\partial t} = Du \cdot \Delta u - decay \cdot u + k \cdot v $
 
 AHL diffusion:
 $\frac{\partial v}{\partial t} = Dc \cdot \Delta v + grow \cdot v - kc \cdot u \cdot v$
+

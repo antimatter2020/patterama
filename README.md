@@ -8,11 +8,11 @@ $\frac{\partial gfp}{\partial t} = \frac{\beta gfp}{ 1 + (\frac{cI}{K gfp})^{2} 
 
 LuxR and AHL activation:
 
-$\frac {luxR \cdot AHL} {luxR + AHL}$
+$\ AHL \cdot LuxR^{2} $
 
-$\frac{\partial cI}{\partial t} = \frac{\beta cI \cdot (\frac {luxR \cdot AHL} {luxR + AHL})^{2}}{ K cI^{2} + (\frac {luxR \cdot AHL} {luxR + AHL})^{2} } - decay \cdot cI $
+$\frac{\partial cI}{\partial t} = \frac{\beta cI \cdot (\frac AHL \cdot LuxR^{2}}{ K cI^{2} + (\frac AHL \cdot LuxR^{2} } - decay \cdot cI $
 
-$\frac{\partial AHL}{\partial t} = \frac{\beta AHL \cdot (\frac {luxR \cdot AHL} {luxR + AHL})^{2}}{ K AHL^{2} + (\frac {luxR \cdot AHL} {luxR + AHL})^{2} } - decay \cdot AHL $
+$\frac{\partial AHL}{\partial t} = \frac{\beta AHL \cdot (\frac AHL \cdot LuxR^{2}}{ K AHL^{2} + (\frac AHL \cdot LuxR^{2} } - decay \cdot AHL $
 
 
 

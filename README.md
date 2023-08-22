@@ -2,17 +2,16 @@
 # long-range and local signaling
 CI repression:
 
-$\frac{\partial cdiA}{\partial t} = \frac{\beta cdiA}{ 1 + (\frac{cI}{K cdiA})^{2} } - decay \cdot cdiA $
+$\frac{d cdiA}{d t} = \frac{\beta cdiA}{ 1 + (\frac{cI}{K cdiA})^{2} } - decay \cdot cdiA $
 
-$\frac{\partial gfp}{\partial t} = \frac{\beta gfp}{ 1 + (\frac{cI}{K gfp})^{2} } - decay \cdot gfp $
+$\frac{d gfp}{d t} = \frac{\beta gfp}{ 1 + (\frac{cI}{K gfp})^{2} } - decay \cdot gfp $
 
 LuxR and AHL activation:
 
-$\ AHL \cdot LuxR^{2} $
 
-$\frac{\partial cI}{\partial t} = \frac{\beta cI \cdot AHL \cdot LuxR^{2}}{ K cI^{2} + AHL \cdot LuxR^{2} } - decay \cdot cI $
+$\frac{d cI}{d t} = \frac{\beta cI \cdot (k * AHL \cdot LuxR)^{2}}{ K cI^{2} + (k * AHL \cdot LuxR)^{2} } - decay \cdot cI $
 
-$\frac{\partial AHL}{\partial t} = \frac{\beta AHL \cdot AHL \cdot LuxR^{2}}{ K AHL^{2} + AHL \cdot LuxR^{2} } - decay \cdot AHL $
+$\frac{\partial AHL}{\partial t} = D \cdot \Delta AHL + \frac{\beta AHL \cdot (k * AHL \cdot LuxR)^{2}}{ K AHL^{2} + (k * AHL \cdot LuxR)^{2} } - decay \cdot AHL $
 
 
 

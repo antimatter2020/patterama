@@ -9,9 +9,9 @@ $\frac{d gfp}{d t} = \frac{\beta gfp}{ 1 + (\frac{cI}{K gfp})^{2} } - decay \cdo
 LuxR and AHL activation:
 
 
-$\frac{d cI}{d t} = \frac{\beta cI \cdot (k * AHL \cdot LuxR)^{2}}{ K cI^{2} + (k * AHL \cdot LuxR)^{2} } - decay \cdot cI $
+$\frac{d cI}{d t} = \frac{\beta cI \cdot (k \cdot AHL \cdot LuxR)^{2}}{ K cI^{2} + (k \cdot AHL \cdot LuxR)^{2} } - decay \cdot cI $
 
-$\frac{\partial AHL}{\partial t} = D \cdot \Delta AHL + \frac{\beta AHL \cdot (k * AHL \cdot LuxR)^{2}}{ K AHL^{2} + (k * AHL \cdot LuxR)^{2} } - decay \cdot AHL $
+$\frac{\partial AHL}{\partial t} = D \cdot \Delta AHL + \frac{\beta AHL \cdot (k \cdot AHL \cdot LuxR)^{2}}{ K AHL^{2} + (k \cdot AHL \cdot LuxR)^{2} } - decay \cdot AHL $
 
 
 
